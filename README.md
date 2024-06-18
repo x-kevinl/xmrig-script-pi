@@ -1,2 +1,2 @@
 # xmrig-script-pi
-An automated xmrig install script for Raspberry Pi that mines Monero.
+An automated xmrig install script for Raspberry Pi.
