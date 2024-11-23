@@ -7,11 +7,4 @@ cd build
 cmake ..
 make
 
-read -p "Would you like to donate to the maker of the script? (y/n): " donate
-
-if [ "$donate" != "y" ]; then
-  cd ../src
-  curl -o donate.h https://raw.githubusercontent.com/x-kevinl/xmrig-script-pi/main/no-donations.h
-fi
-
 echo "Installation complete."
